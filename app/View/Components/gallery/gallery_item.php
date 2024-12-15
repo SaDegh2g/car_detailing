@@ -15,7 +15,8 @@ class gallery_item extends Component
         public string $img1,
         public string $img2,
         public string $header,
-        public string $message
+        public string $message,
+        public string $route,
     )
     {
         //

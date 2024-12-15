@@ -1,3 +1,16 @@
+
+@import "pace.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-container {
+    width: 100%; /* Ensure it takes the full width of the container */
+    overflow: hidden; /* Prevent page scrolling caused by slides */
+}
+
+.swiper-slide {
+    display: flex; /* Center-align the content inside each slide */
+    justify-content: center;
+    align-items: center;
+}
