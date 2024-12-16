@@ -21,8 +21,6 @@ Route::get('/', function (){
     return view('index');
 })->name('home');
 
-//Route::get('/services/exterior', [ExteriorController::class , 'index'])->name('services.exterior');
-
 Route::name('services.')->group(function () {
     Route::get('/exterior', [ServicesController::class ,'Exterior'])->name('exterior');
     Route::get('/interior', [ServicesController::class ,'Interior'])->name('interior');

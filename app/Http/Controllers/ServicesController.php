@@ -11,10 +11,10 @@ class ServicesController extends Controller
     }
 
     public function Interior() {
-        return view('components.services.exterior');
+        return view('components.services.interior');
     }
 
     public function Special() {
-        return view('components.services.exterior');
+        return view('components.services.special');
     }
 }

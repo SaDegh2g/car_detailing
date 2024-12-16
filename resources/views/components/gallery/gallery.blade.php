@@ -29,7 +29,7 @@
 
 
     <x-gallery.gallery_item
-        img1="assets/images/5.jpg"
+        img1="assets/images/s3.jpg"
         img2="assets/images/6.jpg"
         header="Special items"
         route="#"

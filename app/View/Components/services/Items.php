@@ -9,6 +9,7 @@ class Items extends Component
 {
 
     public function __construct(
+        public string $img,
         public string $order,
         public string $header,
         public string $text,

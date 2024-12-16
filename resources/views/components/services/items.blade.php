@@ -9,6 +9,6 @@
 
     <!-- Image -->
     <div class="{{$order}}">
-        <img src="{{asset('assets/images/1.jpg')}}" alt="Caravan Cleaning" class="w-full max-h-[500px] object-cover rounded-lg shadow-lg">
+        <img src="{{asset($img)}}" alt="Caravan Cleaning" class="w-full max-h-[500px] object-cover rounded-lg shadow-lg">
     </div>
 </div>

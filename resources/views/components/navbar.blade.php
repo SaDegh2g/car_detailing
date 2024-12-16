@@ -1,7 +1,7 @@
 <!-- Navbar -->
 <nav id="navbar" {{ $attributes->merge(['class' => 'fixed w-full z-50 bg-black transition-all duration-300'])}} x-data="{ isOpen: false }">
     <div class="container mx-auto xl:px-20 py-5 flex justify-between items-center">
-        <a href="{{route('home')}}" class="lg:text-xl xl:text-2xl px-4 font-bold text-white uppercase">My Pretty Caravan</a>
+        <a href="{{route('home')}}" class="lg:text-xl xl:text-2xl px-4 font-bold text-white uppercase">Pretty Caravan</a>
 
         <!-- Hamburger Menu Button for Mobile -->
         <button

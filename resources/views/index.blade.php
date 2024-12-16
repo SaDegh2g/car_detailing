@@ -1,11 +1,12 @@
 <x-layout>
 
     @section('metaTags')
-        <title>My test</title>
+        <title>Pretty Caravan</title>
     @endsection
 
     <x-navbar class="bg-transparent"/>
 <x-hero/>
+        <h2 class="bg-gray-100 text-4xl tex font-bold text-center pt-28">some of our services</h2>
 <x-gallery.gallery/>
 
 
