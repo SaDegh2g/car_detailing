@@ -17,7 +17,7 @@
         img1="assets/images/1.jpg"
         img2="assets/images/2.jpg"
         header="Thorough interior clean"
-        route="#"
+        route="{{route('services.interior')}}"
         message=" Steam clean carpet, upholstery, mattresses & all seating areas,
                 Full interior & upholstery vacuum,
                 Fabric protection,
@@ -32,7 +32,7 @@
         img1="assets/images/s3.jpg"
         img2="assets/images/6.jpg"
         header="Special items"
-        route="#"
+        route="{{route('services.special')}}"
         message=" solar panel and gas tank installation"
     />
 </section>
