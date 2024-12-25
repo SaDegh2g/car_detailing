@@ -16,7 +16,7 @@
             <a href="{{route('services.exterior')}}" class="xl:text-lg font-semibold text-white uppercase hover:text-gray-300 transition">Exterior</a>
             <a href="{{route('services.interior')}}" class="xl:text-lg font-semibold text-white uppercase hover:text-gray-300 transition">Interior</a>
             <a href="{{route('services.special')}}" class="xl:text-lg font-semibold text-white uppercase hover:text-gray-300 transition">Special</a>
-            <a href="#" class="xl:text-lg font-semibold text-white uppercase hover:text-gray-300 transition">Contact Us</a>
+            <a href="{{route('booking')}}" class="xl:text-lg font-semibold text-white uppercase hover:text-gray-300 transition">Booking</a>
         </div>
     </div>
 
@@ -55,7 +55,7 @@
         <a href="{{route('services.exterior')}}" class="block font-semibold px-6 py-2 text-gray-800 uppercase hover:bg-gray-100">Exterior</a>
             <a href="{{route('services.interior')}}" class="block font-semibold px-6 py-2 text-gray-800 uppercase hover:bg-gray-100">Interior</a>
             <a href="{{route('services.special')}}" class="block font-semibold px-6 py-2 text-gray-800 uppercase hover:bg-gray-100">Special</a>
-            <a href="#" class="block font-semibold px-6 py-2 text-gray-800 uppercase hover:bg-gray-100">Contact Us</a>
+            <a href="{{route('booking')}}" class="block font-semibold px-6 py-2 text-gray-800 uppercase hover:bg-gray-100">Booking</a>
         </nav>
     </div>
 </nav>

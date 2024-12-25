@@ -7,11 +7,11 @@
                 Email: <a href="mailto:info@carvilla.com" class="text-blue-400 hover:underline">info@carvilla.com</a>
             </p>
             <p class="text-sm">
-                Phone: <a href="tel:+1234567890" class="text-blue-400 hover:underline">+123 456 7890</a>
+                Phone: <a href="tel:+61469405020" class="text-blue-400 hover:underline">+61 469 405 020</a>
             </p>
 
             <p class="text-sm">
-                Whatsapp: <a href="tel:+1234567890" class="text-blue-400 hover:underline">+123 456 7890</a>
+                Whatsapp: <a href="tel:+61469405020" class="text-blue-400 hover:underline">+61 469 405 020</a>
             </p>
 
         </div>

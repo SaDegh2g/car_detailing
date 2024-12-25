@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BookingController;
 use App\Http\Controllers\ExteriorController;
 use App\Http\Controllers\ServicesController;
 use App\Models\booking;
@@ -26,3 +27,5 @@ Route::name('services.')->group(function () {
     Route::get('/interior', [ServicesController::class ,'Interior'])->name('interior');
     Route::get('/special', [ServicesController::class ,'Special'])->name('special');
 });
+
+Route::get('booking',[BookingController::class , 'index'])->name('booking');

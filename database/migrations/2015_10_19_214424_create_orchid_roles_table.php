@@ -11,11 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('services', function (Blueprint $table) {
-            $table->id(); // Primary key
-            $table->string('name'); // Service name
-            $table->decimal('price', 8, 2); // Service price with precision
-            $table->timestamps(); // Created_at and updated_at
+        Schema::create('roles', function (Blueprint $table): void {
+            $table->increments('id');
+            $table->string('slug')->unique();
+            $table->string('name');
+            $table->jsonb('permissions')->nullable();
+            $table->timestamps();
         });
     }
 
@@ -24,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('services');
+        Schema::dropIfExists('roles');
     }
 };

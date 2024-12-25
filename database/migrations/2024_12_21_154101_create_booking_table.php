@@ -12,11 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('booking', function (Blueprint $table) {
-            $table->id(); // Primary key
-            $table->string('name'); // Customer name
-            $table->string('phone_number'); // Customer phone number
-            $table->date('date'); // Booking date
-            $table->timestamps(); // Created_at and updated_at
+            $table->id();
+            $table->timestamps();
         });
     }
 
@@ -25,6 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('bookings');
+        Schema::dropIfExists('booking');
     }
 };
